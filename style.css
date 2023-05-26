@@ -1,0 +1,49 @@
+body {
+    background-color: rgb(204, 204, 204);
+    color: #817a83;
+}
+
+section {
+    border: 1px solid black;
+    background-color: white;
+    border: hidden;
+    flex-wrap: wrap;
+    width: 300px;
+    height: 250px;
+}
+
+button {
+    border: hidden;
+    height: 40px;
+    width: 120px;
+    color: #817a83 !important;
+    text-align: center;
+    background-color: white;
+    margin: auto 0;
+
+}
+button:hover {
+    border-radius: 20px;
+    height: 50px;
+    background-color: rgba(129, 129, 255, 0.966);
+    font-size: 15px;
+    color: white !important;
+}
+
+.grille {
+    max-width: 1300px;
+    width: 80%;
+    height: auto;
+    margin: 30px auto;
+    border: 1px solid #333;
+    display: grid; 
+    grid-template-columns: repeat(auto-fill, 300px);
+    justify-content: center;
+    grid-gap: 20px;
+    padding: 20px 0px 20px 100px;
+}
+.top img{
+    height: 100px;
+    width: 90px;
+    margin: auto;
+}
